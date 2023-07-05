@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .navbar {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        /* border: 1px solid black; */
+        width: 40%;
+      }
+      a {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        cursor: cell;
+      }
+      .navbar-icons {
+        list-style: none;
+        font-size: 25px;
+        display: flex;
+        /* border: 1px solid ; */
+        justify-content: space-evenly;
+        width: 15%;
+        color: white;
+        cursor: pointer;
+      }
+      img {
+        /* border: 1px solid ; */
+        /* margin-right: 100px; */
+        position: relative;
+        right: 90px;
+      }
+      .main-container {
+        background-image: url(https://www.nepaltrekhub.com/wp-content/uploads/2020/12/tilicho-lake-trek.jpg);
+        /* background: linear-gradient(red, yellow, green);  */
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .btn1,.btn2{
+        height:50px ;
+        width: 100px;
+        background-color: #ffffff;
+        padding-top: 15px;
+        padding-left:15px;
+        margin:20px;
+        border-radius: 30px;
+      }
+      .button{
+        display: flex;
+        justify-content: center;
+      }
+      .btn1:hover{
+        background-color: red;
+        color: white;
+      }
+      .btn2:hover{
+        background-color: yellow;
+        color: blue;
+      }
+      .image{
+        height: 400px;
+        width: 300px;
+        background-image: url(https://freepngimg.com/thumb/categories/353.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .text-img{
+        display: flex;
+        justify-content: space-around;
+        color: aqua;
+        margin-top: 180px;
+        /* border:1px solid; */
+      }
+      .text{
+        /* border: 1px solid; */
+        /* height: 500px; */
+        width: 500px;
+        text-align: center;
+      }
+      .image{
+        /* border:1px solid; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <img
+          src="https://icms-image.slatic.net/images/ims-web/458d4688-ae26-4e6d-8f39-c26194de228a.png"
+          alt=""
+          height="50px"
+        />
+
+        <ul class="navbar">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Information</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+        <ul class="navbar-icons">
+          <li>Cart</li>
+          <li>Signin</li>
+          <li>Signout</li>
+        </ul>
+      </div>
+      <div class="content">
+
+        <div class="button">
+            <div class="btn1">About Us</div>
+            <div class="btn2">Contact Us</div>
+        </div>
+        <div class="text-img">
+          <div class="text">
+            <h1>Tilico Lake</h1>
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laborum quam soluta sapiente, veniam pariatur id deleniti possimus magni hic omnis tenetur minima facilis ipsum, nisi quia voluptatem dolor quo!</h3>
+          </div>
+          <div class="image">
+            <!-- <img src="" alt=""> -->
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </body>
+</html>
